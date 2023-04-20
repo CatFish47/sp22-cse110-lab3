@@ -1,12 +1,14 @@
 ---
 name: Styling Issue Template
-about: This template is for styling-related issues
+about: Suggest new/changes in styling
 title: "[STYLING]"
 labels: good first issue, styling
 assignees: CatFish47
 
 ---
 
-# Styling Issue Template
+**What would you like styled?**
+Add an exact location/line that you would like styled.
 
-Use this issue template when there is an issue related to styling
+**How would you like it styled?**
+Add a clear and concise description of how you would like it to be styled.
