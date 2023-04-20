@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/* (B) STICKY NAVBAR */
+header {
+    position: sticky;
+    top: 0;
+    padding: 0.1rem;
+    z-index: 9;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+.cat-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;    
+    margin-top: 0.5rem;        
+}
+
+.cat-grid img , .cat-grid video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+footer{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+ 
+      margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px ) {
+    body {
+ 
+      margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    }
+  }  
