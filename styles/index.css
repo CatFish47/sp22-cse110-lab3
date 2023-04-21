@@ -1,3 +1,29 @@
-body{
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: 'Lato', sans-serif; /* Lato font from Google fonts */
+    margin: auto;
+}
+
+body > * {
+    padding: 0 1em 0 1em; /* Makes header, main, and footer have left-right padding */
+}
+
+header, footer {
+    background-color: #caf6ff; /* Sets light-blue background colors for header and footer */
+    margin: auto;
+}
+
+main {
+    background-color: rgb(255, 253, 246); /* Off white color for main content */
+}
+
+h1 { /* Modify h1 tag to account for background-color */
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+h2 { /* Modify h2 tag to account for background-color */
+    margin: auto;
+    padding: 1.1rem 0 0 0;
+    margin-bottom: 1rem;
 }
