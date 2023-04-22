@@ -27,3 +27,36 @@ h2 { /* Modify h2 tag to account for background-color */
     padding: 1.1rem 0 0 0;
     margin-bottom: 1rem;
 }
+
+summary:hover {
+    color: rgb(18, 175, 199);
+}
+
+summary:active {
+    color: rgb(23, 139, 157);
+}
+
+[present="true"] {
+    color: hsl(125, 69%, 20%);
+}
+
+[present="false"] {
+    color: hsl(0, 59%, 22%);
+    text-decoration: line-through;
+}
+
+ul.details-list {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+ul li {
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+
+ol li {
+    margin: 1mm 0;
+}
