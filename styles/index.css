@@ -27,3 +27,8 @@ h2 { /* Modify h2 tag to account for background-color */
     padding: 1.1rem 0 0 0;
     margin-bottom: 1rem;
 }
+
+em, strong {
+    text-decoration: underline;
+    color: darkred;
+}
