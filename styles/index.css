@@ -20,6 +20,13 @@ footer {
     margin: auto;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
 footer {
     /* add padding on all sides for footer */
     padding: 1rem;
