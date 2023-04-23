@@ -58,13 +58,6 @@ h2 {
     gap: 1pc;
 }
 
-@media screen and (max-width: 425px) {
-    .questionnaire {
-        width: 100%;
-        left: 0;
-    }
-}
-
 summary:hover {
     color: rgb(18, 175, 199);
 }
@@ -101,4 +94,34 @@ ol li {
 em, strong {
     text-decoration: underline;
     color: darkred;
+}
+
+#cat-assets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#cat-assets > * {
+    max-width: 30vw;
+}
+
+@media screen and (max-width: 425px) {
+    .questionnaire {
+        width: 100%;
+        left: 0;
+    }
+
+    #cat-assets {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #cat-assets > * {
+        max-width: 80vw;
+    }
 }
