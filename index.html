@@ -79,91 +79,83 @@
             <hr>
         </section>
         <section>
-            <h2>Post-Meeting Questionnaire</h2>
-            <form>
+            <form class="questionnaire">
                 <fieldset>
-                    <span>Please fill the form out to the best of your ability.</span>
+                    <span>Post-Meeting Questionnaire: Please fill the form out to the best of your ability.</span>
                     <hr>
-
-                    <div>
-                        <label for="date">Date:</label>
-                        <input id="date" type="date">
+                    <div id="questions">
+                        <div>
+                            <label for="date">Date:</label>
+                            <input id="date" type="date">
+                        </div>
+    
+                        <div>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text">
+                        </div>
+    
+                        <div>
+                            <label for="cat-type">Favorite cat type:</label>
+                            <select id="cat-type">
+                                <option value="None">Please Select:</option>
+                                <option value="Basic">Basic Cat</option>
+                                <option value="Knows-How-You-Die">Knows-How-You-Die Cat</option>
+                                <option value="Judgemental">Judgemental Cat</option>
+                                <option value="Aristocat">Aristocat</option>
+                                <option value="Wait-Til-Youre-Asleep">Wait-Til-You're-Asleep Cat</option>
+                                <option value="Evil Scientist">Evil Scientist Cat</option>
+                                <option value="Dont Ask">(Don't Ask)</option>
+                                <option value="Tarantino">Tarantino Cat</option>
+                                <option value="Demon">Demon Cat</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+    
+                        <div>
+                            <span>Did you enjoy the meeting?</span>
+                            <input id="yes" type="radio">
+                            <label for="yes">Yes</label>
+                            <input id="no" type="radio">
+                            <label for="no">No</label>
+                        </div>
+    
+                        <div>
+                            <label>Please check all that you wish changed for the next meeting:</label><br>
+                            <input id="food" type="checkbox">
+                            <label for="food">Food</label><br>
+                            <input id="schedule" type="checkbox">
+                            <label for="schedule">Schedule</label><br>
+                            <input id="room" type="checkbox">
+                            <label for="room">Room</label><br>
+                        </div>
+    
+                        <div>
+                            <label for="explain">Please explain your answers to the above question.</label><br>
+                            <textarea id="explain"></textarea>
+                        </div>
+    
+                        <div>
+                            <label for="pizza-option">Favorite pizza?</label>
+                            <input id="pizza-option" list="pizza-types">
+                        </div>
+    
+                        <datalist id="pizza-types">
+                            <option value="Cheese">
+                            <option value="Pepperoni">
+                            <option value="Neopolitan">
+                            <option value="Meat Lovers">
+                            <option value="Hawaiian">
+                        </datalist>
+    
+                        <div><button>Submit</button></div>
                     </div>
-
-                    <div>
-                        <label for="name">Name:</label>
-                        <input id="name" type="text">
-                    </div>
-
-                    <div>
-                        <label for="cat-type">Favoraite cat type:</label>
-                        <select id="cat-type">
-                            <option value="None">Please Select:</option>
-                            <option value="Basic">Basic Cat</option>
-                            <option value="Knows-How-You-Die">Knows-How-You-Die Cat</option>
-                            <option value="Judgemental">Judgemental Cat</option>
-                            <option value="Aristocat">Aristocat</option>
-                            <option value="Wait-Til-Youre-Asleep">Wait-Til-You're-Asleep Cat</option>
-                            <option value="Evil Scientist">Evil Scientist Cat</option>
-                            <option value="Dont Ask">(Don't Ask)</option>
-                            <option value="Tarantino">Tarantino Cat</option>
-                            <option value="Demon">Demon Cat</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <span>Did you enjoy the meeting?</span>
-                        <input id="yes" type="radio">
-                        <label for="yes">Yes</label>
-                        <input id="no" type="radio">
-                        <label for="no">No</label>
-                    </div>
-
-                    <br>
-
-                    <div>
-                        <label>Please check all that you wish changed for the next meeting:</label><br>
-                        <input id="food" type="checkbox">
-                        <label for="food">Food</label><br>
-                        <input id="schedule" type="checkbox">
-                        <label for="schedule">Schedule</label><br>
-                        <input id="room" type="checkbox">
-                        <label for="room">Room</label><br>
-                    </div>
-
-                    <br>
-
-                    <div>
-                        <label for="explain">Please explain your answers to the above question.</label><br>
-                        <textarea id="explain"></textarea>
-                    </div>
-
-                    <br>
-
-                    <div>
-                        <label for="pizza-option">Favorite pizza?</label>
-                        <input id="pizza-option" list="pizza-types">
-                    </div>
-
-                    <datalist id="pizza-types">
-                        <option value="Cheese">
-                        <option value="Pepperoni">
-                        <option value="Neopolitan">
-                        <option value="Meat Lovers">
-                        <option value="Hawaiian">
-                    </datalist>
-
-                    <br>
-
-                    <div><button>Submit</button></div>
                 </fieldset>
             </form>
         </section>
     </main>
     <footer>
         <div>
-            <b>&copy; Copyright 2023, Totaly Has a Copyright</b>
+            <b>&copy; Copyright 2023, Totally Has a Copyright</b>
         </div>
         <div>
             <b>Contact: 1 (111) 111-1111</b>
