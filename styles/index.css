@@ -60,3 +60,8 @@ ul li {
 ol li {
     margin: 1mm 0;
 }
+
+em, strong {
+    text-decoration: underline;
+    color: darkred;
+}
