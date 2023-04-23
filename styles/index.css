@@ -82,15 +82,21 @@ ul.details-list {
     border-color: black;
     border-width: 1px;
     border-radius: 10px;
+    padding-top: 1mm;
 }
 
-ul li {
-    margin-top: 1mm;
-    margin-bottom: 1mm;
-}
-
-ol li {
+li ~ li {
     margin: 1mm 0;
+}
+
+li a {
+    color: rgb(15, 15, 138);
+}
+
+nav {
+    border: 1px black solid;
+    display: inline-block;
+    padding-right: 0.25in;
 }
 
 em,
