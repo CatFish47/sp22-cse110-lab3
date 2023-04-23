@@ -128,3 +128,9 @@ strong {
         max-width: 80vw;
     }
 }
+
+textarea {
+    min-width: 50%;
+    max-width: 45vw;
+    height: 4rem;
+}
