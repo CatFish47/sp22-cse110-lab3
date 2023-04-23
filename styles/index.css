@@ -1,45 +1,47 @@
 * {
-    font-family: 'Lato', sans-serif;
     /* Lato font from Google fonts */
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     margin: auto;
+    display: block;
 }
 
 body>* {
-    padding: 0 1em 0 1em;
     /* Makes header, main, and footer have left-right padding */
+    padding: 0 1em 0 1em;
 }
 
 header,
 footer {
-    background-color: #caf6ff;
     /* Sets light-blue background colors for header and footer */
+    background-color: #caf6ff;
     margin: auto;
 }
 
 footer {
-    padding: 1rem;
     /* add padding on all sides for footer */
+    padding: 1rem;
+    text-align: center;
 }
 
 main {
-    background-color: rgb(255, 253, 246);
     /* Off white color for main content */
-    padding-bottom: 5mm;
+    background-color: rgb(255, 253, 246);
     /* add padding between questionnaire and footer */
+    padding-bottom: 5mm;
 }
 
+/* Modify h1 tag to account for background-color */
 h1 {
-    /* Modify h1 tag to account for background-color */
     margin: auto;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
+/* Modify h2 tag to account for background-color */
 h2 {
-    /* Modify h2 tag to account for background-color */
     margin: auto;
     padding: 1.1rem 0 0 0;
     margin-bottom: 1rem;
@@ -98,7 +100,8 @@ ol li {
     margin: 1mm 0;
 }
 
-em, strong {
+em,
+strong {
     text-decoration: underline;
     color: darkred;
 }
